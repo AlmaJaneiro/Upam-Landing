@@ -1,0 +1,24 @@
+// .cards{
+//     column-gap: 2rem;
+//     display: grid;
+//     grid-area: card-row;
+//     grid-template-columns: repeat(3, 20rem);
+//     justify-content: center;
+//     gap: 2rem;
+//     width: 100%;
+// }
+// .service-card-row {
+//     column-gap: 2rem;
+//     display: grid;
+//     grid-template-areas:
+//         " title title title title title title title title title title title title"
+//         " card-row card-row card-row card-row card-row card-row card-row card-row card-row card-row card-row card-row "
+//         " . . button button button button button button button button . .";
+//     grid-template-columns: repeat(12, 1fr);
+//     margin: 0 auto;
+//     max-width: 70rem;
+//     position: relative;
+//     gap: .5rem;
+//     width: 100%;
+//     z-index: 2;
+// }
