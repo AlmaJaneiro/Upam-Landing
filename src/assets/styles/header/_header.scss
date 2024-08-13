@@ -1,12 +1,40 @@
 .header-section{
     width: 100%;
+    background-color: var(--primary-color);
     .header-row{
         display: flex;
+        max-width: 70rem;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
         .header-title{
-
+            flex: 1;
+            h1{
+                color: var(--heading-color);
+                font-size: var(--h1-size);
+                line-height: 1.2;
+            }
+            p{
+                color: var(--white);
+                font-size: 1.1rem;
+            }
         }
         .header-imgae{
+            flex: 1;
+            img{
+                width: 100%;
+            }
             
         }
+    }
+}
+
+.wave{
+    width: 100%;
+    img{
+        width: 100%;
+
     }
 }
